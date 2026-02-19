@@ -14,19 +14,20 @@ A simple, real-time bookmark manager built with Next.js (App Router) and Supabas
 
 ```
 .
+```markdown
 ├── src/
 │   ├── app/
 │   │   ├── layout.tsx          # Root layout component
 │   │   ├── page.tsx            # Home page
 │   │   ├── globals.css         # Global styles
-│   │   └── [private]/           # Dynamic routes
-|            └── [bookmark]/
-|                └── page.tsx
-|            └── [view]/
-|                └── page.tsx
-|            └── layout.tsx
-|        └── [public]/
-|       └── [auth]/  
+│   │   └── [private]/          # Dynamic routes
+│   │       ├── [bookmark]/
+│   │       │   └── page.tsx
+│   │       ├── [view]/
+│   │       │   └── page.tsx
+│   │       └── layout.tsx
+│   ├── [public]/
+│   ├── [auth]/
 │   ├── components/             # Reusable React components
 │   ├── lib/                    # Utility functions
 │   └── styles/                 # CSS/styling files
@@ -35,6 +36,7 @@ A simple, real-time bookmark manager built with Next.js (App Router) and Supabas
 ├── tsconfig.json               # TypeScript configuration
 ├── next.config.js              # Next.js configuration
 └── README.md                   # This file
+
 ```
 
 ## 🚀 Getting Started
