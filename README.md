@@ -19,7 +19,14 @@ A simple, real-time bookmark manager built with Next.js (App Router) and Supabas
 │   │   ├── layout.tsx          # Root layout component
 │   │   ├── page.tsx            # Home page
 │   │   ├── globals.css         # Global styles
-│   │   └── [routes]/           # Dynamic routes
+│   │   └── [private]/           # Dynamic routes
+|            └── [bookmark]/
+|                └── page.tsx
+|            └── [view]/
+|                └── page.tsx
+|            └── layout.tsx
+|        └── [public]/
+|       └── [auth]/  
 │   ├── components/             # Reusable React components
 │   ├── lib/                    # Utility functions
 │   └── styles/                 # CSS/styling files
@@ -49,20 +56,8 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://book-mark-app-taupe.vercel.app/](https://book-mark-app-taupe.vercel.app/) to view it in your browser.
 
-## 📄 Pages & Routing
-
-| Route | Component | Description |
-|-------|-----------|-------------|
-| \`/\` | \`app/page.tsx\` | Home page |
-
-## 🎨 Layout
-
-The root layout in `src/app/layout.tsx` wraps all pages and includes:
-- **Geist Sans & Mono fonts** from Google Fonts
-- **Global CSS** styling
-- **Meta information** (title, description)
 
 ## 🛠️ Technologies
 
@@ -76,10 +71,3 @@ The root layout in `src/app/layout.tsx` wraps all pages and includes:
 - \`npm run dev\` - Start development server
 - \`npm run build\` - Build for production
 - \`npm start\` - Start production server
-
-## 📝 License
-
-MIT
-\`\`\`
-
-Replace the structure and routes with your actual project details.
