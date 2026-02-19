@@ -3,12 +3,12 @@
 A simple, real-time bookmark manager built with Next.js (App Router) and Supabase, allowing users to securely save, view, and manage their personal bookmarks with Google authentication.
 
 ## ✨ Features
-🔐 Google OAuth Authentication (no email/password)
-➕ Add bookmarks (title + URL)
-👤 Private bookmarks per user
-📡 Real-time sync across tabs/devices (no refresh needed)
-🗑️ Delete your own bookmarks
-🚀 Deployed on Vercel
+- 🔐 Google OAuth Authentication (no email/password)
+- ➕ Add bookmarks (title + URL)
+- 👤 Private bookmarks per user
+- 📡 Real-time sync across tabs/devices (no refresh needed)
+- 🗑️ Delete your own bookmarks
+- 🚀 Deployed on Vercel
 
 ## 📁 Project Structure
 
